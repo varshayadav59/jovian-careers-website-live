@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #container{
+        background-color:coral;
+        border:1px solid black;
+        font-family:sans-serif;
+        padding: 10px;
+        display:flex;
+        flex-direction:row;
+    }
+    .item{
+        border:1px solid black;
+        padding: 10px;
+background-color: cornflowerblue;
+    
+    }
+    #item-1{
+       flex-grow:4;
+        flex-basis:0;
+    }
+    #item-2{
+        flex-basis:0;
+    }
+</style>
+</head>
+<body>
+    <div id="container">
+        <div id="item-1" class="item">
+            item 1 Item 1 item 1 
+        </div>
+        <div id="item-2" class="item">
+            Item 2 item 1 Item 1 item 1 
+        </div>
+        <div id="item-3" class="item">
+            Item 3
+        </div>
+        <div id="item-4" class="item">
+            Item 4
+        </div>
+        
+
+    </div>
+</body>
+</html>
